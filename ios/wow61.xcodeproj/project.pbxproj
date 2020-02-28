@@ -152,7 +152,6 @@
 				C14B41BB395D3782F6CB26B1 /* Pods-wow61-wow61Tests.debug.xcconfig */,
 				F5817219C99860EF85447A42 /* Pods-wow61-wow61Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -289,7 +288,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -312,6 +311,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -586,6 +586,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C14B41BB395D3782F6CB26B1 /* Pods-wow61-wow61Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -609,6 +610,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F5817219C99860EF85447A42 /* Pods-wow61-wow61Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = wow61Tests/Info.plist;
@@ -629,6 +631,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D864B93B3B477F5FC2AB4F71 /* Pods-wow61.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
@@ -649,6 +652,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EF28D8C88437EC679B992B4B /* Pods-wow61.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = wow61/Info.plist;
@@ -778,6 +782,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -831,6 +836,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
