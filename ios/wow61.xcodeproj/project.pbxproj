@@ -17,8 +17,8 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* wow61Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* wow61Tests.m */; };
 		3541922CD32D7D8F738CA9C0 /* libPods-wow61-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 033097DA2FFDFC45EF200381 /* libPods-wow61-tvOS.a */; };
+		36694E77571A1AE5D3E7843C /* libPods-wow61-wow61Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8540D01DA2086C9540843AB /* libPods-wow61-wow61Tests.a */; };
 		74FC21E90325F09767BCB5F1 /* libPods-wow61.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43167BDFDF254E82E875AB7D /* libPods-wow61.a */; };
-		8F502E51EAC0A83AF1094B8C /* libPods-wow61Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A1F5DBDCA28993B34CFBAA /* libPods-wow61Tests.a */; };
 		A0F0FAA66B1316FF8FD47277 /* libPods-wow61-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 730A20F0B91A7805DA9D2037 /* libPods-wow61-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -57,16 +57,18 @@
 		2D02E4901E0B4A5D006451C7 /* wow61-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wow61-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3256CD9958C826EF3020EB /* Pods-wow61-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wow61-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-wow61-tvOSTests/Pods-wow61-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		43167BDFDF254E82E875AB7D /* libPods-wow61.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wow61.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47A1F5DBDCA28993B34CFBAA /* libPods-wow61Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wow61Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		630832B2943C8510E1775D03 /* Pods-wow61Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wow61Tests.release.xcconfig"; path = "Target Support Files/Pods-wow61Tests/Pods-wow61Tests.release.xcconfig"; sourceTree = "<group>"; };
 		730A20F0B91A7805DA9D2037 /* libPods-wow61-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wow61-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7960015E9EC3DE754937A817 /* Pods-wow61Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wow61Tests.debug.xcconfig"; path = "Target Support Files/Pods-wow61Tests/Pods-wow61Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDE747FF0943903976828E38 /* Pods-wow61-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wow61-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-wow61-tvOSTests/Pods-wow61-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C14B41BB395D3782F6CB26B1 /* Pods-wow61-wow61Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wow61-wow61Tests.debug.xcconfig"; path = "Target Support Files/Pods-wow61-wow61Tests/Pods-wow61-wow61Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7A923C67BA7987DEDBDDAC2 /* Pods-wow61-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wow61-tvOS.release.xcconfig"; path = "Target Support Files/Pods-wow61-tvOS/Pods-wow61-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		D864B93B3B477F5FC2AB4F71 /* Pods-wow61.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wow61.debug.xcconfig"; path = "Target Support Files/Pods-wow61/Pods-wow61.debug.xcconfig"; sourceTree = "<group>"; };
+		E8540D01DA2086C9540843AB /* libPods-wow61-wow61Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wow61-wow61Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EF28D8C88437EC679B992B4B /* Pods-wow61.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wow61.release.xcconfig"; path = "Target Support Files/Pods-wow61/Pods-wow61.release.xcconfig"; sourceTree = "<group>"; };
+		F5817219C99860EF85447A42 /* Pods-wow61-wow61Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wow61-wow61Tests.release.xcconfig"; path = "Target Support Files/Pods-wow61-wow61Tests/Pods-wow61-wow61Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F502E51EAC0A83AF1094B8C /* libPods-wow61Tests.a in Frameworks */,
+				36694E77571A1AE5D3E7843C /* libPods-wow61-wow61Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +149,8 @@
 				BDE747FF0943903976828E38 /* Pods-wow61-tvOSTests.release.xcconfig */,
 				7960015E9EC3DE754937A817 /* Pods-wow61Tests.debug.xcconfig */,
 				630832B2943C8510E1775D03 /* Pods-wow61Tests.release.xcconfig */,
+				C14B41BB395D3782F6CB26B1 /* Pods-wow61-wow61Tests.debug.xcconfig */,
+				F5817219C99860EF85447A42 /* Pods-wow61-wow61Tests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -160,7 +164,7 @@
 				43167BDFDF254E82E875AB7D /* libPods-wow61.a */,
 				033097DA2FFDFC45EF200381 /* libPods-wow61-tvOS.a */,
 				730A20F0B91A7805DA9D2037 /* libPods-wow61-tvOSTests.a */,
-				47A1F5DBDCA28993B34CFBAA /* libPods-wow61Tests.a */,
+				E8540D01DA2086C9540843AB /* libPods-wow61-wow61Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -446,7 +450,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-wow61Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-wow61-wow61Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -580,7 +584,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7960015E9EC3DE754937A817 /* Pods-wow61Tests.debug.xcconfig */;
+			baseConfigurationReference = C14B41BB395D3782F6CB26B1 /* Pods-wow61-wow61Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,7 +607,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 630832B2943C8510E1775D03 /* Pods-wow61Tests.release.xcconfig */;
+			baseConfigurationReference = F5817219C99860EF85447A42 /* Pods-wow61-wow61Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
